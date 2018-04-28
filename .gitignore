@@ -101,11 +101,6 @@ fabric.properties
 .repository
 artifacts
 
-# generated gradle files
-gradle/
-gradlew
-gradlew.bat
-
 # Mac OSX
 .DS_Store
 
