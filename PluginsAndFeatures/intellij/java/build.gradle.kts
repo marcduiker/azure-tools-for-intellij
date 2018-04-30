@@ -6,8 +6,6 @@ import org.jetbrains.kotlin.gradle.plugin.KotlinSourceSet
 apply<KotlinPlatformJvmPlugin>()
 apply<IntelliJPlugin>()
 
-operator fun File.div(part: String) = File(this, part)
-
 @Suppress("PropertyName")
 val intellij_version: String by project
 
@@ -19,4 +17,8 @@ intellij {
     this.setPlugins("maven", dep_plugins)
     version = intellij_version
     downloadSources = sources.toBooleanChecked()
+}
+
+dependencies {
+    compile(project(":platform"))
 }
