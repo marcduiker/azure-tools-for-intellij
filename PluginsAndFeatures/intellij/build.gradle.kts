@@ -5,7 +5,6 @@ import org.jetbrains.kotlin.gradle.plugin.KotlinPlatformJvmPlugin
 import java.net.URI
 
 plugins {
-    base
     java
     kotlin("jvm") version "1.2.41" apply false
     id("org.jetbrains.intellij") version "0.3.1" apply false
