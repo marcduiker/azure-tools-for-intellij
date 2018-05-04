@@ -1,3 +1,9 @@
+## Still add some files from IDEA to make better first-time experience
+!.idea
+.idea/*
+!.idea/gradle.xml
+!.idea/vcs.xml
+
 ## Eclipse
 .settings/
 .loadpath
