@@ -4,6 +4,8 @@
 
 The Azure Toolkit for [JetBrains Rider](https://www.jetbrains.com/rider) is an open-source project that helps .NET developers easily create, develop, configure, test, manage and deploy highly available and scalable web apps to Azure.
 
+The plugin can be downloaded and installed in JetBrains Rider and is available [from the JetBrains plugins repository](https://plugins.jetbrains.com/plugin/11220-azure-toolkit-for-rider).
+
 ## Functionality
 
 * Sign in to an Azure account
