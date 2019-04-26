@@ -22,8 +22,8 @@ intellij {
     plugins 'terminal', dep_plugins_rider
 }
 
-def extensionsFrom = 'resources/dotnet'
-
-tasks.withType(PrepareSandboxTask) {
-    from(extensionsFrom, { into "$intellij.pluginName/dotnet" })
-}
+//def extensionsFrom = 'resources/dotnet'
+//
+//tasks.withType(PrepareSandboxTask) {
+//    from(extensionsFrom, { into "$intellij.pluginName/dotnet" })
+//}

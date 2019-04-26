@@ -123,6 +123,10 @@ allprojects {
         downloadSources = Boolean.valueOf(sources)
     }
 
+//    buildSearchableOptions {
+//        jvmArgs '-Xmx512m'
+//    }
+
     instrumentCode {
         // javac2 is required to compile .form files from IntelliJ IDEA UI Designer
         // Since Rider distribution does not contain it, take it from IDEA
