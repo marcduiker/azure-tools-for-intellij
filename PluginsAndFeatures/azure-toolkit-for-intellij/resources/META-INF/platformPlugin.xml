@@ -6,7 +6,8 @@
     <html>
       <h4>Bugfix:</h4>
       <ul>
-        <li>Fix Azure Function run configuration clashing - <a href="https://youtrack.jetbrains.com/issue/RIDER-27409">RIDER-27409</a></li>
+        <li><a href="https://github.com/JetBrains/azure-tools-for-intellij/issues/195">#195</a> - Program parameters should not default when changing selected project</li>
+        <li><a href="https://github.com/JetBrains/azure-tools-for-intellij/issues/196">#196</a> - Re-using BuildProjectBeforeRunTask causes loss of before run task sometimes for function projects</li>
       </ul>
     </html>
     ]]>
